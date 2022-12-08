@@ -2,18 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#S#",
-        "SGS",
+        "S#S",
         "#S#"
     ],
     "key": {
         "#": {
-            "item": "minecraft:paper"
+            "item": "minecraft:gunpowder"
         },
         "S": {
             "tag": "adventure:sand_sub"
-        },
-        "G": {
-            "item": "minecraft:gunpowder"
         }
     },
     "result": {

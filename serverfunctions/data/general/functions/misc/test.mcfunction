@@ -1,3 +1,0 @@
-# comment
-
-say success

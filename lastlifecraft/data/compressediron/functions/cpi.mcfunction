@@ -1,0 +1,19 @@
+# Replace chainmail boots with compressed iron varient
+
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_boots",tag:{Damage:0}}]}] run give @s chainmail_boots{display:{Name:'{"text":"Compressed Iron Boots","color":"white","bold":true,"italic":false}'},Damage:1,Custom:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;-396213489,429737018,-1585134478,-1668101377],Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-1146679184,-1158003483,-1455921974,-560981385],Slot:"feet"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.05,Operation:0,UUID:[I;-648368197,1428504882,-1918263331,-2064335615],Slot:"feet"}]} 1
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_boots",tag:{Damage:0}}]}] run clear @s chainmail_boots{Damage:0} 1
+
+# Replace chainmail leggings ..
+
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_leggings",tag:{Damage:0}}]}] run give @s chainmail_leggings{display:{Name:'{"text":"Compressed Iron Leggings","color":"white","bold":true,"italic":false}'},Damage:1,Custom:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;-456757812,-1592374967,-1287597775,111973696],Slot:"legs"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-856482473,-1854518553,-1520893353,-1931098524],Slot:"legs"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.05,Operation:0,UUID:[I;-2055271549,-1717092270,-1128443800,480216032],Slot:"legs"}]} 1
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_leggings",tag:{Damage:0}}]}] run clear @s chainmail_leggings{Damage:0} 1
+
+# Replace chainmail chestplate ..
+
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_chestplate",tag:{Damage:0}}]}] run give @s chainmail_chestplate{display:{Name:'{"text":"Compressed Iron Chestplate","color":"white","bold":true,"italic":false}'},Damage:1,Custom:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:7,Operation:0,UUID:[I;-1896358290,1254574149,-1964923091,-1531082538],Slot:"chest"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-258124558,2009483735,-1874518049,629596923],Slot:"chest"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.05,Operation:0,UUID:[I;-1570539200,-456177118,-1266105703,-1613713991],Slot:"chest"}]} 1
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_chestplate",tag:{Damage:0}}]}] run clear @s chainmail_chestplate{Damage:0} 1
+
+# Replace chainmail helmet ..
+
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_helmet",tag:{Damage:0}}]}] run give @s chainmail_helmet{display:{Name:'{"text":"Compressed Iron Helmet","color":"white","bold":true,"italic":false}'},Damage:1,Custom:1b,Enchantments:[{id:"minecraft:aqua_affinity",lvl:1s},{id:"minecraft:unbreaking",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;-648575287,-1516220861,-1332769024,168319495],Slot:"head"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-796403016,-1085059532,-1924650898,193303633],Slot:"head"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.05,Operation:0,UUID:[I;312481616,1628981921,-1439551954,-1871358781],Slot:"head"}]} 1
+execute as @a[nbt={Inventory:[{id:"minecraft:chainmail_helmet",tag:{Damage:0}}]}] run clear @s chainmail_helmet{Damage:0} 1
