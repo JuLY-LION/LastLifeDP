@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iWi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:gold_ingot"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_helmet",
+        "count": 1
+    }
+}

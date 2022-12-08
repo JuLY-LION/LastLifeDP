@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:leather_horse_armor"
+        },
+        {
+            "item": "minecraft:lead"
+        },
+        {
+            "item": "minecraft:rabbit_hide"
+        }
+    ],
+    "result": {
+        "item": "minecraft:saddle",
+        "count": 1
+    }
+}

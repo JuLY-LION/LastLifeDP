@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iWi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:diamond"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_helmet",
+        "count": 1
+    }
+}
