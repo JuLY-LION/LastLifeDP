@@ -1,4 +1,4 @@
-# comment
+# Setup all scoreboards and teams required. Run this function before anything else.
 
 scoreboard objectives add lives dummy
 scoreboard objectives add hasDied deathCount

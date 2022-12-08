@@ -1,7 +1,7 @@
 # For when sessions end
 
 effect give @a resistance 60 15 true
-effect give @a weakness 60 1 true
+effect give @a weakness 1 15 true
 
 execute as @a[gamemode=survival] run playsound minecraft:block.beacon.ambient block @p ~ ~20 ~ 0.5 2 0.5
 execute as @a[gamemode=survival] run scoreboard players add still_alive lives 1
